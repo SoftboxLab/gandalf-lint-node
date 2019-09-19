@@ -1,0 +1,46 @@
+{
+  "name": "gandalf-lint-node",
+  "version": "0.1.0",
+  "description": "Your bad Node code shall not pass",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "release:tags": "git push && git push --tags",
+    "release:patch": "npm version patch && npm run release:tags",
+    "release:minor": "npm version minor && npm run release:tags",
+    "release:major": "npm version major && npm run release:tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoftboxLab/gandalf-lint-node.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript",
+    "lint",
+    "js",
+    "backend",
+    "web",
+    "styleguide",
+    "es6",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018"
+  ],
+  "author": "Lucas Vilaboim <lucas@vilaboim.com> (https://vilaboim.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SoftboxLab/gandalf-lint-node/issues"
+  },
+  "homepage": "https://github.com/SoftboxLab/gandalf-lint-node#readme",
+  "dependencies": {
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1"
+  },
+  "peerDependencies": {
+    "eslint": "^6.4.0"
+  }
+}
