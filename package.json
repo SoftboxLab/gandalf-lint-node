@@ -1,5 +1,5 @@
 {
-  "name": "gandalf-lint-node",
+  "name": "@softboxlab/eslint-config-gandalf-lint-node",
   "version": "0.1.0",
   "description": "Your bad Node code shall not pass",
   "main": "index.js",
@@ -37,8 +37,9 @@
   },
   "homepage": "https://github.com/SoftboxLab/gandalf-lint-node#readme",
   "dependencies": {
+    "eslint-config-standard": "^14.1.0",
     "eslint-plugin-node": "^10.0.0",
-    "eslint-plugin-promise": "^4.2.1"
+    "eslint-plugin-security": "^1.4.0"
   },
   "peerDependencies": {
     "eslint": "^6.4.0"
