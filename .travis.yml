@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- 9.10.0
+sudo: false
+branch:
+  only:
+  - master
+deploy:
+  provider: npm
+  email: "$EMAIL"
+  api_key:
+    secure: "$NPM_API_KEY"
+  on:
+    tags: true
+    repo: SoftboxLab/gandalf-lint-node
