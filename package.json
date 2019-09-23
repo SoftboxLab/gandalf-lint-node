@@ -37,8 +37,7 @@
   },
   "homepage": "https://github.com/SoftboxLab/gandalf-lint-node#readme",
   "dependencies": {
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-node": "^10.0.0",
+    "@softboxlab/eslint-config-gandalf-lint": "^1.3.0",
     "eslint-plugin-security": "^1.4.0"
   },
   "peerDependencies": {
