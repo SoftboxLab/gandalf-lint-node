@@ -8,7 +8,7 @@
 
 <div align="center">
 	<img src="https://media.giphy.com/media/8abAbOrQ9rvLG/giphy.gif" /><br/>
-  Bad NodeJS Code Shall Not Pass
+  Bad Node.js Code Shall Not Pass
 </div>
 
 ## Install
