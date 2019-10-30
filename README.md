@@ -1,4 +1,4 @@
-![npm](https://img.shields.io/npm/v/@softboxlab/eslint-config-gandalf-lint-react)
+![npm](https://img.shields.io/npm/v/@softboxlab/eslint-config-gandalf-lint-node)
 ![build](https://img.shields.io/travis/SoftboxLab/gandalf-lint-node)
 ![size](https://img.shields.io/bundlephobia/min/@softboxlab/eslint-config-gandalf-lint-node)
 ![dependencies](https://img.shields.io/david/SoftboxLab/gandalf-lint-node)
